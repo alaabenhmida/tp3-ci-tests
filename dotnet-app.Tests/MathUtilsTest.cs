@@ -10,7 +10,7 @@ Assert.AreEqual(120, MathUtils.Factorial(5));
 [TestMethod]
     public void TestFactorial0()
     {
-        Assert.AreEqual(0, MathUtils.Factorial(0));
+        Assert.AreEqual(1, MathUtils.Factorial(0));
     }
 
 }
